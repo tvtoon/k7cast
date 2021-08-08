@@ -1,0 +1,7 @@
+# en.UTF-8
+
+## 1.0.2
+
+* Most of the hierarchy is totally different from flycast, the most annoying dependencies are inside the tree as a remainder that they will be removed.
+* Renderer code was reworked to be taken from headers and, ultimately, be rewritten in C, like most code will be.
+* Majority of useless stuff inside "types.h" was removed or moved to a sane header, reducing the compilation time.
